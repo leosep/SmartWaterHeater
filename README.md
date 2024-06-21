@@ -9,3 +9,5 @@ Basically this source code is for a DIY smart plug. This project implements a Sm
 - **GPIO Control**: Uses RPi.GPIO to control the GPIO pin of the heater.
 - **Cron Scheduling**: Uses `python-crontab` to schedule turning off the heater after a specified time.
 - **Basic Authentication**: Protects API endpoints with HTTP Basic Authentication.
+
+  ![image info](./plug_images/SmartHeater.png)
