@@ -18,6 +18,6 @@ Basically this source code is for a DIY smart plug. This project implements a Sm
 - RPi.GPIO
 - python-crontab
 
-  ## The Smart Plug
+## The Smart Plug
 
-  ![image info](./plug_images/SmartHeater.png)
+![image info](./plug_images/SmartHeater.png)
