@@ -1,6 +1,6 @@
 # SmartWaterHeater Project 
 
-This project implements a Smart Heater Service using Flask, Raspberry Pi GPIO control, and cron scheduling. The service allows turning a heater on and off based on user commands via an Alexa skill and provides a web API for remote control.
+Basically this source code is for a DIY smart plug. This project implements a Smart Heater Service using Flask, Raspberry Pi GPIO control, and cron scheduling. The service allows turning a heater on and off based on user commands via an Alexa skill and provides a web API for remote control.
 
 ## Functionality
 
