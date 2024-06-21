@@ -10,4 +10,14 @@ Basically this source code is for a DIY smart plug. This project implements a Sm
 - **Cron Scheduling**: Uses `python-crontab` to schedule turning off the heater after a specified time.
 - **Basic Authentication**: Protects API endpoints with HTTP Basic Authentication.
 
+## Dependencies
+
+- Flask
+- Flask-Ask
+- Flask-HTTPAuth
+- RPi.GPIO
+- python-crontab
+
+  ## The Smart Plug
+
   ![image info](./plug_images/SmartHeater.png)
