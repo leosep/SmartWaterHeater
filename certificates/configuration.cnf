@@ -1,0 +1,19 @@
+[req]
+distinguished_name = req_distinguished_name
+x509_extensions = v3_req
+prompt = no
+
+[req_distinguished_name]
+C = DO
+ST = SD
+L = city
+O = cia
+CN = domain
+
+[v3_req]
+keyUsage = nonRepudiation, digitalSignature, keyEncipherment 
+extendedKeyUsage = serverAuth
+subjectAltName = @subject_alternate_names
+
+[subject_alternate_names]
+DNS.1 = domain

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/waitMe.css') }}">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="{{ url_for('static', filename='js/waitMe.js') }}"></script>
+
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Calentador de agua</title>
+</head>
+<body>
+    <div class="content" id="content">
+        <div class="title">WATER HEATER</div>
+        <div class="button">
+            <input type="checkbox" id="toggle" name="toggle" value="is_on" style="display: none;">
+            <label for="toggle" class="toy-toggle">
+             
+              <span class="border1"></span>
+              <span class="border2"></span>
+              <span class="border3"></span>
+              <span class="handle">
+                <span class="handle-off"></span>
+                <span class="handle-on"></span>
+              </span>
+            </label>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
